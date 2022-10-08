@@ -1,17 +1,23 @@
+//Elabore um algoritmo que leia o valor do lado 
+//do quadrado e calcule a área. Em seguida, calcule 
+//o dobro da área. Mostre a área e o dobro.
+
 programa
 {
-	
 	funcao inicio()
 	{
-	real salario, aumento, desconto
-	escreva("Informe o valor do salario:")
-		leia(salario)
-		salario += salario * 0.15 
-		desconto = 0.8
-		desconto = salario - 0.8
-		
-escreva("O valor do salario com aumento  é: R$",salario, "\n")
- escreva("O valor do salario com desconto é: R$",desconto, "\n")   
+		real x
+
+		escreva("Informe o valor do lado do quadrado: ")
+		leia(x)
+
+		x *= x
+
+		escreva("\nO valor da área é: ",x,"m²")
+
+		x *= 2
+
+		escreva("\nO valor do dobro da área é: ",x,"m²")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +25,7 @@ escreva("O valor do salario com aumento  é: R$",salario, "\n")
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 179; 
+ * @POSICAO-CURSOR = 368; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

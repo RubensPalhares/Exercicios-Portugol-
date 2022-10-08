@@ -1,6 +1,3 @@
-
-
- 
 programa
 {
 	funcao inicio()
@@ -33,14 +30,12 @@ programa
 		escreva("\nOperação: (1 + 2) / (3 * 4) = ", resultado, "\n")
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1130; 
- * @DOBRAMENTO-CODIGO = [1];
+ * @POSICAO-CURSOR = 933; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
